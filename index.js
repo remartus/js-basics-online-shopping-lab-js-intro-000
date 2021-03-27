@@ -42,7 +42,7 @@ function viewCart() {
 
 function total() {
   var totalPrice = 0
-  while 
+  for(let i = 0)
 }
 
 function removeFromCart(item) {
