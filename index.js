@@ -57,6 +57,12 @@ function removeFromCart(item) {
       present = 'yes'
     }
   }
+  if(present === 'no'){
+    return "That item is not in your cart."
+  }
+  else if(present === 'yes'){
+    return cart
+  }
 
 }
 
