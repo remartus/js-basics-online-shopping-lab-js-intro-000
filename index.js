@@ -33,7 +33,7 @@ function viewCart() {
   else{
     var response = "In your cart, you have "
     for(let i = 0; i < cart.length - 1; i++){
-      response = response + cart[i]
+      response = `${response} cart[i]`
     }
     return response
   }
