@@ -25,7 +25,7 @@ function viewCart() {
   }
 
   if (cart.length === 1){
-    return 
+    return "In your cart, you have "
   }
   else{
     var response = "In your cart, you have "
