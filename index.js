@@ -49,18 +49,17 @@ function total() {
 }
 
 function removeFromCart(item) {
-  // write your code here
-  var present = 'no'
-  for(let i = 0; i < cart.length; i++){
-    if(cart[i].itemName === item){
+  var present = 'no' //is the item in the cart? we assume not
+  for(let i = 0; i < cart.length; i++){ //for loop looks for the item
+    if(cart[i].itemName === item){ //item is found, spliced out, and marked as present.
       cart.splice(i,1)
       present = 'yes'
     }
   }
-  if(present === 'no'){
+  if(present === 'no'){ //item is not there, tell user such
     return "That item is not in your cart."
   }
-  else if(present === 'yes'){
+  else if(present === 'yes'){ //item is there, return cart
     return cart
   }
 }
