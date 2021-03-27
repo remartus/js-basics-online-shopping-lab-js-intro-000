@@ -16,6 +16,7 @@ function addToCart(item) {
     itemPrice:price
   }
   cart[cart.length] = itemObject
+  
 }
 
 function viewCart() {
