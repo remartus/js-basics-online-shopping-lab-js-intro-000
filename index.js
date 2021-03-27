@@ -24,6 +24,9 @@ function viewCart() {
     return "Your shopping cart is empty."
   }
 
+  if (cart.length === 1){
+    return 
+  }
   else{
     var response = "In your cart, you have "
     for(let i = 0; i < cart.length - 1; i++){
