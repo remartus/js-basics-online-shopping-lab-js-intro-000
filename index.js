@@ -25,7 +25,7 @@ function viewCart() {
   }
 
   else{
-    
+    for(let i = 0; i < cart.length - 1)
   }
 }
 
