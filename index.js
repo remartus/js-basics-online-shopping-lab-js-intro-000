@@ -42,6 +42,7 @@ function viewCart() {
 
 function total() {
   var totalPrice = 0
+  
 }
 
 function removeFromCart(item) {
