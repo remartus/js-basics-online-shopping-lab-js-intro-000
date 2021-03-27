@@ -10,8 +10,7 @@ function setCart(c) {
 }
 
 function addToCart(item) {
- cart[cart.length] = item
- return cart
+ 
 }
 
 function viewCart() {
