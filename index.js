@@ -27,6 +27,9 @@ function viewCart() {
   if (cart.length === 1){
     return `In your cart, you have ${cart[0].itemName} at $${cart[0].itemPrice}.`
   }
+  if (cart.lenth === 2){
+    return `In your cart, you have ${cart[0].itemName} at $${cart[0].itemPrice}, and ${cart[1].itemName} at $${cart[1].itemPrice}.`
+  }
   else{
     var response = "In your cart, you have "
     for(let i = 0; i < cart.length - 1; i++){
