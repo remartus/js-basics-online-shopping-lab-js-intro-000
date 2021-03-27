@@ -25,7 +25,7 @@ function viewCart() {
   }
 
   if (cart.length === 1){
-    return `In your cart, you have ${cart[0].itemName}`
+    return `In your cart, you have ${cart[0].itemName} at $${cart[0]}`
   }
   else{
     var response = "In your cart, you have "
