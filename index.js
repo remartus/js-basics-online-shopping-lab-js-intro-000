@@ -15,7 +15,7 @@ function addToCart(item) {
     itemName: item,
     itemPrice:price
   }
-
+  
 }
 
 function viewCart() {
