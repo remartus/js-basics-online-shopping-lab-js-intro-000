@@ -29,6 +29,7 @@ function viewCart() {
     for(let i = 0; i < cart.length - 1; i++){
       response = response + cart[i]
     }
+    response = 
   }
 }
 
