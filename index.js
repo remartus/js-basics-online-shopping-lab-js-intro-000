@@ -57,7 +57,7 @@ function removeFromCart(item) {
       present = 'yes'
     }
   }
-  
+
 }
 
 function placeOrder(cardNumber) {
